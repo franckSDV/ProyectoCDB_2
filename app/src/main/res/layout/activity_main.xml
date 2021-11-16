@@ -110,6 +110,7 @@
                     android:layout_weight="1"
                     android:background="@android:color/transparent"
                     android:minHeight="48dp"
+                    android:onClick="Facebook"
                     app:srcCompat="@drawable/faceico"
                     tools:ignore="SpeakableTextPresentCheck" />
 
@@ -120,6 +121,7 @@
                     android:layout_weight="1"
                     android:background="@android:color/transparent"
                     android:minHeight="48dp"
+                    android:onClick="Twitter"
                     app:srcCompat="@drawable/twicon"
                     tools:ignore="SpeakableTextPresentCheck" />
 
@@ -130,6 +132,7 @@
                     android:layout_weight="1"
                     android:background="@android:color/transparent"
                     android:minHeight="48dp"
+                    android:onClick="Youtube"
                     app:srcCompat="@drawable/youtubeico"
                     tools:ignore="SpeakableTextPresentCheck" />
 
@@ -140,6 +143,7 @@
                     android:layout_weight="1"
                     android:background="@android:color/transparent"
                     android:minHeight="48dp"
+                    android:onClick="Info"
                     app:srcCompat="@drawable/info"
                     tools:ignore="SpeakableTextPresentCheck" />
 

@@ -8,8 +8,8 @@
     tools:context=".Insumos_act">
 
     <androidx.cardview.widget.CardView
-        android:layout_width="360dp"
-        android:layout_height="645dp"
+        android:layout_width="361dp"
+        android:layout_height="619dp"
         app:cardBackgroundColor="#80FFFFFF"
         app:cardCornerRadius="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -83,6 +83,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="70dp"
                 android:backgroundTint="#FF9933"
+                android:onClick="Calcular"
                 android:text="Calcular"
                 app:cornerRadius="25dp"
                 app:layout_constraintEnd_toEndOf="parent"
