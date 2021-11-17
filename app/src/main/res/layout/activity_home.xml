@@ -185,6 +185,7 @@
                         android:layout_margin="10dp"
                         android:backgroundTint="#FF9933"
                         android:minHeight="48dp"
+                        android:onClick="Entrenamientos"
                         android:text="Entrenamientos"
                         app:cornerRadius="25dp" />
                 </TableRow>

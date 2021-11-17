@@ -40,4 +40,10 @@ public class Home_act extends AppCompatActivity {
         i.putExtras(bun);//Le paso el Bundle al Intent
         startActivity(i);
     }
+
+    public void Entrenamientos(View view)
+    {
+        Intent i = new Intent(this, Entrenamientos_act.class);
+        startActivity(i);
+    }
 }
